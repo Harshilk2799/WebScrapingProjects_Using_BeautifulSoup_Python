@@ -2,6 +2,13 @@ from bs4 import BeautifulSoup
 import grequests
 import pandas as pd
 
+# grequest library
+# = grequests is a Python library that enables asynchronous HTTP requests using gevent for concurrent operations.
+# Core Features:
+# 1. Makes multiple HTTP requests concurrently
+# 2. Uses gevent for asynchronous I/O
+# 3. Significantly faster than sequential requests
+
 def get_urls():
     urls = []
     for i in range(1,5):
